@@ -1,0 +1,492 @@
+22:58:55 **** Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function '__vector_16':
+../adc.c:30: error: request for member 'Byte' in something not a structure or union
+../adc.c:31: error: request for member 'Byte' in something not a structure or union
+../adc.c: In function 'ADC_init':
+../adc.c:196: error: request for member 'Byte' in something not a structure or union
+../adc.c:199: error: request for member 'Byte' in something not a structure or union
+../adc.c:202: error: request for member 'Byte' in something not a structure or union
+../adc.c:207: error: request for member 'Byte' in something not a structure or union
+../adc.c:219: error: request for member 'Bits' in something not a structure or union
+../adc.c: In function 'ADC_readChannel':
+../adc.c:274: error: request for member 'Byte' in something not a structure or union
+../adc.c:279: error: request for member 'Byte' in something not a structure or union
+../adc.c:279: error: request for member 'Byte' in something not a structure or union
+../adc.c:283: error: request for member 'Bits' in something not a structure or union
+../adc.c:283: error: expected identifier before numeric constant
+../adc.c:285: error: request for member 'Bits' in something not a structure or union
+../adc.c:285: error: expected identifier before numeric constant
+../adc.c:288: error: request for member 'Bits' in something not a structure or union
+../adc.c:288: error: expected identifier before numeric constant
+../adc.c:294: error: request for member 'Byte' in something not a structure or union
+../adc.c:295: error: request for member 'Byte' in something not a structure or union
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:01:17 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function '__vector_16':
+../adc.c:30: error: request for member 'Byte' in something not a structure or union
+../adc.c:31: error: request for member 'Byte' in something not a structure or union
+../adc.c: In function 'ADC_init':
+../adc.c:223: error: request for member 'Bits' in something not a structure or union
+../adc.c: In function 'ADC_readChannel':
+../adc.c:278: error: request for member 'Byte' in something not a structure or union
+../adc.c:283: error: request for member 'Byte' in something not a structure or union
+../adc.c:283: error: request for member 'Byte' in something not a structure or union
+../adc.c:287: error: request for member 'Bits' in something not a structure or union
+../adc.c:287: error: expected identifier before numeric constant
+../adc.c:289: error: request for member 'Bits' in something not a structure or union
+../adc.c:289: error: expected identifier before numeric constant
+../adc.c:292: error: request for member 'Bits' in something not a structure or union
+../adc.c:292: error: expected identifier before numeric constant
+../adc.c:298: error: request for member 'Byte' in something not a structure or union
+../adc.c:299: error: request for member 'Byte' in something not a structure or union
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:02:52 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function '__vector_16':
+../adc.c:30: error: request for member 'Byte' in something not a structure or union
+../adc.c:31: error: request for member 'Byte' in something not a structure or union
+../adc.c: In function 'ADC_readChannel':
+../adc.c:287: error: request for member 'Byte' in something not a structure or union
+../adc.c:292: error: request for member 'Byte' in something not a structure or union
+../adc.c:292: error: request for member 'Byte' in something not a structure or union
+../adc.c:296: error: request for member 'Bits' in something not a structure or union
+../adc.c:296: error: expected identifier before numeric constant
+../adc.c:298: error: request for member 'Bits' in something not a structure or union
+../adc.c:298: error: expected identifier before numeric constant
+../adc.c:301: error: request for member 'Bits' in something not a structure or union
+../adc.c:301: error: expected identifier before numeric constant
+../adc.c:307: error: request for member 'Byte' in something not a structure or union
+../adc.c:308: error: request for member 'Byte' in something not a structure or union
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:03:14 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function '__vector_16':
+../adc.c:30: error: request for member 'Byte' in something not a structure or union
+../adc.c:31: error: request for member 'Byte' in something not a structure or union
+../adc.c: In function 'ADC_readChannel':
+../adc.c:287: error: request for member 'Byte' in something not a structure or union
+../adc.c:292: error: request for member 'Byte' in something not a structure or union
+../adc.c:292: error: request for member 'Byte' in something not a structure or union
+../adc.c:296: error: request for member 'Bits' in something not a structure or union
+../adc.c:296: error: expected identifier before numeric constant
+../adc.c:298: error: request for member 'Bits' in something not a structure or union
+../adc.c:298: error: expected identifier before numeric constant
+../adc.c:301: error: request for member 'Bits' in something not a structure or union
+../adc.c:301: error: expected identifier before numeric constant
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:05:38 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function '__vector_16':
+../adc.c:30: error: request for member 'Byte' in something not a structure or union
+../adc.c:31: error: request for member 'Byte' in something not a structure or union
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:05:59 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../application.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_displayStringRowColumn':
+../lcd.c:234: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:247: warning: implicit declaration of function 'itoa'
+../lcd.c:249: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: ADC_driver_LCD_Temp_interrupt_based.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_driver_LCD_Temp_interrupt_based.map -mmcu=atmega32 -o "ADC_driver_LCD_Temp_interrupt_based.elf"  ./adc.o ./application.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: ADC_driver_LCD_Temp_interrupt_based.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_driver_LCD_Temp_interrupt_based.elf  >"ADC_driver_LCD_Temp_interrupt_based.lss"
+Finished building: ADC_driver_LCD_Temp_interrupt_based.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9420 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:06:32 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9420 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:09:50 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../application.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"application.d" -MT"application.o" -c -o "application.o" "../application.c"
+../application.c: In function 'main':
+../application.c:24: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../application.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_displayStringRowColumn':
+../lcd.c:234: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:247: warning: implicit declaration of function 'itoa'
+../lcd.c:249: warning: pointer targets in passing argument 1 of 'LCD_displayString' differ in signedness
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: ADC_driver_LCD_Temp_interrupt_based.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_driver_LCD_Temp_interrupt_based.map -mmcu=atmega32 -o "ADC_driver_LCD_Temp_interrupt_based.elf"  ./adc.o ./application.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: ADC_driver_LCD_Temp_interrupt_based.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_driver_LCD_Temp_interrupt_based.elf  >"ADC_driver_LCD_Temp_interrupt_based.lss"
+Finished building: ADC_driver_LCD_Temp_interrupt_based.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9420 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:14:23 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building target: ADC_driver_LCD_Temp_interrupt_based.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_driver_LCD_Temp_interrupt_based.map -mmcu=atmega32 -o "ADC_driver_LCD_Temp_interrupt_based.elf"  ./adc.o ./application.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: ADC_driver_LCD_Temp_interrupt_based.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_driver_LCD_Temp_interrupt_based.elf  >"ADC_driver_LCD_Temp_interrupt_based.lss"
+Finished building: ADC_driver_LCD_Temp_interrupt_based.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9374 bytes (28.6% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:15:11 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building target: ADC_driver_LCD_Temp_interrupt_based.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_driver_LCD_Temp_interrupt_based.map -mmcu=atmega32 -o "ADC_driver_LCD_Temp_interrupt_based.elf"  ./adc.o ./application.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: ADC_driver_LCD_Temp_interrupt_based.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_driver_LCD_Temp_interrupt_based.elf  >"ADC_driver_LCD_Temp_interrupt_based.lss"
+Finished building: ADC_driver_LCD_Temp_interrupt_based.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9420 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:17:22 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9420 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:18:34 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+In file included from ../adc.c:9:
+../adc.h:100: error: expected identifier or '(' before numeric constant
+../adc.h:103: error: expected ';' before 'uint8'
+../adc.h:115: error: expected identifier or '(' before numeric constant
+../adc.h:116: error: expected ';' before 'uint8'
+../adc.h:128: error: expected identifier or '(' before numeric constant
+../adc.h:129: error: expected ';' before 'uint8'
+In file included from ../adc.c:9:
+../adc.h:172:1: warning: "ADMUX" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../adc.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom32.h:66:1: warning: this is the location of the previous definition
+In file included from ../adc.c:9:
+../adc.h:173:1: warning: "ADCSRA" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../adc.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom32.h:65:1: warning: this is the location of the previous definition
+In file included from ../adc.c:9:
+../adc.h:174:1: warning: "ADCH" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../adc.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom32.h:64:1: warning: this is the location of the previous definition
+In file included from ../adc.c:9:
+../adc.h:175:1: warning: "ADCL" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../adc.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom32.h:63:1: warning: this is the location of the previous definition
+In file included from ../adc.c:9:
+../adc.h:176:1: warning: "SFIOR" redefined
+In file included from c:/winavr-20100110/lib/gcc/../../avr/include/avr/io.h:206,
+                 from ../adc.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/avr/iom32.h:141:1: warning: this is the location of the previous definition
+../adc.c: In function '__vector_16':
+../adc.c:31: error: incompatible types in assignment
+../adc.c:32: error: invalid operands to binary << (have 'Adc_ADCH_Type' and 'int')
+../adc.c: In function 'ADC_init':
+../adc.c:52: error: invalid operands to binary & (have 'Adc_ADMUX_Type' and 'int')
+../adc.c:53: error: invalid operands to binary & (have 'Adc_ADMUX_Type' and 'int')
+../adc.c:82: error: invalid operands to binary & (have 'Adc_ADMUX_Type' and 'int')
+../adc.c:95: error: invalid operands to binary & (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:201: error: invalid operands to binary | (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:204: error: invalid operands to binary & (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:207: error: invalid operands to binary | (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:211: error: invalid operands to binary | (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:223: error: invalid operands to binary & (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:224: error: invalid operands to binary | (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:225: error: invalid operands to binary | (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c: In function 'ADC_readChannel':
+../adc.c:289: error: invalid operands to binary & (have 'Adc_ADMUX_Type' and 'int')
+../adc.c:294: error: invalid operands to binary | (have 'Adc_ADMUX_Type' and 'int')
+../adc.c:297: error: invalid operands to binary | (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:300: error: invalid operands to binary & (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:303: error: invalid operands to binary & (have 'Adc_ADCSRA_Type' and 'int')
+../adc.c:310: error: incompatible types in assignment
+../adc.c:311: error: invalid operands to binary << (have 'Adc_ADCH_Type' and 'int')
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+23:19:01 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building target: ADC_driver_LCD_Temp_interrupt_based.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_driver_LCD_Temp_interrupt_based.map -mmcu=atmega32 -o "ADC_driver_LCD_Temp_interrupt_based.elf"  ./adc.o ./application.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: ADC_driver_LCD_Temp_interrupt_based.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_driver_LCD_Temp_interrupt_based.elf  >"ADC_driver_LCD_Temp_interrupt_based.lss"
+Finished building: ADC_driver_LCD_Temp_interrupt_based.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9420 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:23:28 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9420 bytes (28.7% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:29:41 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building target: ADC_driver_LCD_Temp_interrupt_based.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_driver_LCD_Temp_interrupt_based.map -mmcu=atmega32 -o "ADC_driver_LCD_Temp_interrupt_based.elf"  ./adc.o ./application.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: ADC_driver_LCD_Temp_interrupt_based.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_driver_LCD_Temp_interrupt_based.elf  >"ADC_driver_LCD_Temp_interrupt_based.lss"
+Finished building: ADC_driver_LCD_Temp_interrupt_based.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9374 bytes (28.6% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:35:19 **** Incremental Build of configuration Debug for project ADC_driver_LCD_Temp_interrupt_based ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building target: ADC_driver_LCD_Temp_interrupt_based.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ADC_driver_LCD_Temp_interrupt_based.map -mmcu=atmega32 -o "ADC_driver_LCD_Temp_interrupt_based.elf"  ./adc.o ./application.o ./gpio.o ./lcd.o ./lm35_sensor.o   
+Finished building target: ADC_driver_LCD_Temp_interrupt_based.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ADC_driver_LCD_Temp_interrupt_based.elf  >"ADC_driver_LCD_Temp_interrupt_based.lss"
+Finished building: ADC_driver_LCD_Temp_interrupt_based.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 ADC_driver_LCD_Temp_interrupt_based.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9326 bytes (28.5% Full)
+(.text + .data + .bootloader)
+
+Data:        280 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
